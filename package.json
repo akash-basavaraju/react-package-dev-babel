@@ -6,7 +6,8 @@
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepublish": "npm run build"
   },
   "author": "Akash Basavaraju <bmnakash@gmail.com>",
   "license": "ISC",
