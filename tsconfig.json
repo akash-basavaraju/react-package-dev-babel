@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ES6",
+    "lib": ["ES5", "ES6", "DOM"],
+    "outDir": "./lib",
+    "declaration": true,
+    "strict": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node"
+  },
+  "include": ["src/*"],
+  "exclude": ["node_modules/*"]
+}

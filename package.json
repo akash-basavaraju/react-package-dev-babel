@@ -1,0 +1,44 @@
+{
+  "name": "npm-package-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a boilerplate for creating the various npm packages",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Akash Basavaraju <bmnakash@gmail.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": "^7.3.0",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.38",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "eslint": "^7.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "prettier": "2.0.5",
+    "rollup": "^2.18.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-styles": "^3.8.2",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akash-basavaraju"
+  },
+  "bugs": {
+    "url": "https://github.com/akash-basavaraju"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "rollup"
+  ],
+  "homepage": "https://github.com/akash-basavaraju"
+}
