@@ -21,6 +21,6 @@ export default {
     del({ targets: "dist/*" }),
     typescript(),
     styles(),
-    copy({ targets: [{ src: "src/**/*.css", dest: "lib/" }] }),
+    copy({ targets: [{ src: "src/**/*.css", dest: "dist/" }] }),
   ],
 };

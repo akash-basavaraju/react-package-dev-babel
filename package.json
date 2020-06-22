@@ -11,7 +11,6 @@
   "author": "Akash Basavaraju <bmnakash@gmail.com>",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": "^7.3.0",
     "react": "^16.13.1"
   },
   "devDependencies": {
