@@ -3,7 +3,7 @@
     "target": "ES5",
     "module": "ES6",
     "lib": ["ES5", "ES6", "DOM"],
-    "outDir": "./lib",
+    "outDir": "./dist",
     "declaration": true,
     "strict": true,
     "jsx": "react",
@@ -11,5 +11,5 @@
     "moduleResolution": "Node"
   },
   "include": ["src/*"],
-  "exclude": ["node_modules/*"]
+  "exclude": ["node_modules/*", "./dist/*"]
 }
