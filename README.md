@@ -1,40 +1,28 @@
-# `package-name`
+# react-package-devserver-boilerplate
 
-Package Description
-
-## Demo
-
-[Demo](https://gph.is/g/E3nNjVO)
+This is a boilerplate for creating react, typescript npm packages with dev server
 
 ## How to Use
 
-First install the package with npm
+First clone the package with the below command with your-package-name.
 
-`$ npm i package-name --save`
+`$ git clone https://github.com/akash-basavaraju/react-package-devserver-boilerplate.git your-package-name`
 
-package usage below
+Go inside your-package-name folder.
 
-```js
-import Package from "package-name";
-import App from "./App.js";
+`$ cd your-package-name`
 
-function main() {
-  return (
-    <>
-      {/* or <Package /> */}
-      <Package>
-        <App />
-      </Package>
-    </>
-  );
-}
-```
+Write your package code inside `src` folder.
 
-## API
+Write your package usage code inside `dev/index.tsx` component.
 
-### ToastProvider
+Start Dev Server with below command
 
-Package Usage APIs
+`$ npm run dev`
+
+Finally Publish your package.
+
+`$ npm publish`
 
 #### Raising Issues and PRs are heartly welcomed.
 

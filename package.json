@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-boilerplate",
+  "name": "react-package-devserver-boilerplate",
   "version": "1.0.0",
-  "description": "This is a boilerplate for creating the various npm packages",
+  "description": "This is a boilerplate for creating react, typescript npm packages with dev server",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
