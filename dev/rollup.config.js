@@ -30,6 +30,6 @@ export default {
       presets: ["@babel/preset-react", "@babel/preset-env"],
       babelrc: false,
     }),
-    serve({ port: 5000, contentBase: ["dev"], verbose: true, open: true }),
+    serve({ open: true, port: 5000, contentBase: ["dev"], verbose: true }),
   ],
 };
