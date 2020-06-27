@@ -24,6 +24,10 @@ After the completion of the package, publish it
 
 `$ npm publish`
 
+## Known Issue
+
+Need to refresh the localhost page, after every code change.
+
 #### Raising Issues and adding features are heartly welcomed.
 
 ##### with :heart: by [Akash Basavaraju](https://github.com/akash-basavaraju)

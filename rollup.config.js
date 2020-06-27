@@ -1,11 +1,10 @@
-import typescript from "rollup-plugin-typescript2";
+import babel from "@rollup/plugin-babel";
 import styles from "rollup-plugin-styles";
-import copy from "rollup-plugin-copy";
 import del from "rollup-plugin-delete";
 import pkg from "./package.json";
 
 export default {
-  input: "./src/index.tsx",
+  input: "./src/index.jsx",
   output: [
     {
       file: pkg.main,
@@ -19,8 +18,14 @@ export default {
   external: [...Object.keys(pkg.peerDependencies || {})],
   plugins: [
     del({ targets: "dist/*" }),
-    typescript(),
+    babel({
+      babelHelpers: "bundled",
+      exclude: ["node_modules/**", "dev/**", "dist/**"],
+      include: ["src/**.(js|jsx)"],
+      extensions: [".js", ".jsx"],
+      presets: ["@babel/preset-react"],
+      babelrc: false,
+    }),
     styles(),
-    // copy({ targets: [{ src: "src/**/*.css", dest: "dist/" }] }),
   ],
 };
