@@ -27,7 +27,7 @@ export default {
       exclude: ["dist/**"],
       include: ["dev/**.(js|jsx)", "src/**.(js|jsx)"],
       extensions: [".js", ".jsx"],
-      presets: ["@babel/preset-react"],
+      presets: ["@babel/preset-react", "@babel/preset-env"],
       babelrc: false,
     }),
     serve({ port: 5000, contentBase: ["dev"], verbose: true, open: true }),

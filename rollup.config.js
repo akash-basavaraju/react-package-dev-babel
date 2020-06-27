@@ -23,7 +23,7 @@ export default {
       exclude: ["node_modules/**", "dev/**", "dist/**"],
       include: ["src/**.(js|jsx)"],
       extensions: [".js", ".jsx"],
-      presets: ["@babel/preset-react"],
+      presets: ["@babel/preset-react", "@babel/preset-env"],
       babelrc: false,
     }),
     styles(),
